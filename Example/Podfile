@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GHToolLib_Example' do
+  pod 'GHToolLib', :path => '../'
+
+  target 'GHToolLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
