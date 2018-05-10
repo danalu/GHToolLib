@@ -1,0 +1,6 @@
+framework module GHToolLib {
+  umbrella header "GHToolLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

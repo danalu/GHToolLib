@@ -1,0 +1,16 @@
+PODS:
+  - GHToolLib (0.0.1)
+
+DEPENDENCIES:
+  - GHToolLib (from `../`)
+
+EXTERNAL SOURCES:
+  GHToolLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GHToolLib: 44286abc12c391b395d9be3a8c5c1069e24791ff
+
+PODFILE CHECKSUM: eb572e161f583f1262beb7364fa93568a36a3e65
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18062BBA7CBC3436C97D6F787E2F5F18 /* Pods-GHToolLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F299848C5D721656141ACAB97082C /* Pods-GHToolLib_Tests-dummy.m */; };
+		1EFCF06D6E08FDA482E63D35678B9ABA /* PersistentTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE318A52DB1D7F31DF3EBFA0DF6B83 /* PersistentTool.swift */; };
+		6B2CDF7A975211FA405583A08F9050AD /* Pods-GHToolLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F58CEF26EA3D65B55B470559431E13 /* Pods-GHToolLib_Example-dummy.m */; };
+		80425E1817DB4252C6E79ED6E908077F /* GHToolLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0132A8D9BBC4840F92CC63879990965C /* GHToolLib-dummy.m */; };
+		901575ACCB01A1E58E43216A247495A4 /* Pods-GHToolLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5C982D6173EE94E3B7E2592313A22A /* Pods-GHToolLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0B367D5440E4D01E4651D3D2D72C98 /* Pods-GHToolLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51424A3F587C669DECC836A10C649288 /* Pods-GHToolLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D6AB7573DFAB4B1F9C365957B432D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D721D4F1009C0A0BB87CBB047D957F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DB97353E9EBC0BC5BCCEF098C1A220E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FF000DE0FD2853922E91AE7E96A00B92 /* GHToolLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F82710A791D655C9D2DCFE017D9E6B2 /* GHToolLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4604E993E64F43BA4F132832C28FFDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD56BFF5BA1305EE4494D34B269962C;
+			remoteInfo = "Pods-GHToolLib_Example";
+		};
+		63FE83D361E8B5910E21BAE8D7CC8D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2989832D68D472E18AE2A34FB319457;
+			remoteInfo = GHToolLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0132A8D9BBC4840F92CC63879990965C /* GHToolLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHToolLib-dummy.m"; sourceTree = "<group>"; };
+		06320B05B69F907504A339CB4A44E5AF /* Pods-GHToolLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHToolLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		08FA1BFDE8ADF88E5A1A3D97A3E9A6C2 /* Pods_GHToolLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHToolLib_Tests.framework; path = "Pods-GHToolLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F15B280BC49DF26308A24946430BD4 /* Pods-GHToolLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHToolLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16F58CEF26EA3D65B55B470559431E13 /* Pods-GHToolLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHToolLib_Example-dummy.m"; sourceTree = "<group>"; };
+		2B5254541D41065B4DC46F12FBE34EB5 /* GHToolLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GHToolLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F5C982D6173EE94E3B7E2592313A22A /* Pods-GHToolLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHToolLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		35334DC112FEDC3DD8A7D7A87E1276D1 /* Pods-GHToolLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHToolLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		48E4D9706821541D91E9E7036FAE8C13 /* GHToolLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHToolLib.xcconfig; sourceTree = "<group>"; };
+		4A6ACCF3F4A725DF3DF5307A6FF72557 /* Pods-GHToolLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHToolLib_Example.modulemap"; sourceTree = "<group>"; };
+		51424A3F587C669DECC836A10C649288 /* Pods-GHToolLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHToolLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5323FF0F9F2305C1F41AD6A15AE61113 /* Pods-GHToolLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHToolLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56D1BAF72D8EDEABB7F6ED43E7041659 /* Pods-GHToolLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHToolLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		575AC061B84206A4F605889793DE56A2 /* GHToolLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GHToolLib.modulemap; sourceTree = "<group>"; };
+		5C95BFA72BFEC7E5741B284904D6A43D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77200AFBD48CD5E1921AE9CD3C2448AE /* Pods-GHToolLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHToolLib_Example-resources.sh"; sourceTree = "<group>"; };
+		7E8F299848C5D721656141ACAB97082C /* Pods-GHToolLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHToolLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		7F82710A791D655C9D2DCFE017D9E6B2 /* GHToolLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHToolLib-umbrella.h"; sourceTree = "<group>"; };
+		89F82DEAC2A86A0CCE6785E9AC2E65DC /* Pods_GHToolLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHToolLib_Example.framework; path = "Pods-GHToolLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94BE318A52DB1D7F31DF3EBFA0DF6B83 /* PersistentTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersistentTool.swift; path = GHToolLib/Classes/PersistentTool.swift; sourceTree = "<group>"; };
+		95C9F453A0F8C42204DC6D58B8787332 /* Pods-GHToolLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHToolLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A32326CC78C41524D49C50E23325B677 /* Pods-GHToolLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHToolLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6F9147716F87D773EAACE42A975DAE8 /* Pods-GHToolLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHToolLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B423EEB9F4DBCCA1189B0BF96470724A /* GHToolLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GHToolLib.framework; path = GHToolLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FF75FAD8860C98AC08EBF2C450556A /* Pods-GHToolLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHToolLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0B8311488D922C789886673EA68FD7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1739BDC69E3996C1CAE083C6154B228 /* Pods-GHToolLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHToolLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		D610640ED454BA985F70FF82370AB804 /* Pods-GHToolLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHToolLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E7259A5A91E652A5E2C08D078282C3CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E80047154078D14D3A22749A7EF552DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E99204108EA625722F6121FA5AF34B05 /* Pods-GHToolLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHToolLib_Tests.modulemap"; sourceTree = "<group>"; };
+		F64D4C2005E6EEC72AFA7A9FF1A6978A /* GHToolLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHToolLib-prefix.pch"; sourceTree = "<group>"; };
+		FEF4A887E3EC3D3D9B30A1ABD0A74FEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36086B43EF9BC678C9ADFD33D7BD4164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D6AB7573DFAB4B1F9C365957B432D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697444E267178213B928179296848697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB97353E9EBC0BC5BCCEF098C1A220E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E491A6A6E2B38711395E9AF5D23B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D721D4F1009C0A0BB87CBB047D957F6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C9AA7D0B15F54E4D64CCDF1A5F800B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2B5254541D41065B4DC46F12FBE34EB5 /* GHToolLib.podspec */,
+				E80047154078D14D3A22749A7EF552DA /* LICENSE */,
+				E7259A5A91E652A5E2C08D078282C3CA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3185C609A2DDBF8E0A71C7C19175910B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				575AC061B84206A4F605889793DE56A2 /* GHToolLib.modulemap */,
+				48E4D9706821541D91E9E7036FAE8C13 /* GHToolLib.xcconfig */,
+				0132A8D9BBC4840F92CC63879990965C /* GHToolLib-dummy.m */,
+				F64D4C2005E6EEC72AFA7A9FF1A6978A /* GHToolLib-prefix.pch */,
+				7F82710A791D655C9D2DCFE017D9E6B2 /* GHToolLib-umbrella.h */,
+				FEF4A887E3EC3D3D9B30A1ABD0A74FEB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GHToolLib";
+			sourceTree = "<group>";
+		};
+		3AC63A9A465694B27B6B2CA95853307D /* Pods-GHToolLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C95BFA72BFEC7E5741B284904D6A43D /* Info.plist */,
+				E99204108EA625722F6121FA5AF34B05 /* Pods-GHToolLib_Tests.modulemap */,
+				15F15B280BC49DF26308A24946430BD4 /* Pods-GHToolLib_Tests-acknowledgements.markdown */,
+				C1FF75FAD8860C98AC08EBF2C450556A /* Pods-GHToolLib_Tests-acknowledgements.plist */,
+				7E8F299848C5D721656141ACAB97082C /* Pods-GHToolLib_Tests-dummy.m */,
+				95C9F453A0F8C42204DC6D58B8787332 /* Pods-GHToolLib_Tests-frameworks.sh */,
+				D1739BDC69E3996C1CAE083C6154B228 /* Pods-GHToolLib_Tests-resources.sh */,
+				51424A3F587C669DECC836A10C649288 /* Pods-GHToolLib_Tests-umbrella.h */,
+				5323FF0F9F2305C1F41AD6A15AE61113 /* Pods-GHToolLib_Tests.debug.xcconfig */,
+				35334DC112FEDC3DD8A7D7A87E1276D1 /* Pods-GHToolLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-GHToolLib_Tests";
+			path = "Target Support Files/Pods-GHToolLib_Tests";
+			sourceTree = "<group>";
+		};
+		54A4C324FC120D0E9CFF93D6085FDC80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B423EEB9F4DBCCA1189B0BF96470724A /* GHToolLib.framework */,
+				89F82DEAC2A86A0CCE6785E9AC2E65DC /* Pods_GHToolLib_Example.framework */,
+				08FA1BFDE8ADF88E5A1A3D97A3E9A6C2 /* Pods_GHToolLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E56DB377BAE71B01D5188F4AAC22932F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				54A4C324FC120D0E9CFF93D6085FDC80 /* Products */,
+				B476AFF1821A2F5A47EA0569A0C7B752 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88A4EA6A91097F224A71099A607A98F5 /* Pods-GHToolLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0B8311488D922C789886673EA68FD7F /* Info.plist */,
+				4A6ACCF3F4A725DF3DF5307A6FF72557 /* Pods-GHToolLib_Example.modulemap */,
+				56D1BAF72D8EDEABB7F6ED43E7041659 /* Pods-GHToolLib_Example-acknowledgements.markdown */,
+				A32326CC78C41524D49C50E23325B677 /* Pods-GHToolLib_Example-acknowledgements.plist */,
+				16F58CEF26EA3D65B55B470559431E13 /* Pods-GHToolLib_Example-dummy.m */,
+				A6F9147716F87D773EAACE42A975DAE8 /* Pods-GHToolLib_Example-frameworks.sh */,
+				77200AFBD48CD5E1921AE9CD3C2448AE /* Pods-GHToolLib_Example-resources.sh */,
+				2F5C982D6173EE94E3B7E2592313A22A /* Pods-GHToolLib_Example-umbrella.h */,
+				D610640ED454BA985F70FF82370AB804 /* Pods-GHToolLib_Example.debug.xcconfig */,
+				06320B05B69F907504A339CB4A44E5AF /* Pods-GHToolLib_Example.release.xcconfig */,
+			);
+			name = "Pods-GHToolLib_Example";
+			path = "Target Support Files/Pods-GHToolLib_Example";
+			sourceTree = "<group>";
+		};
+		8ABB672E80DEC0B7CC79E0CA30521602 /* GHToolLib */ = {
+			isa = PBXGroup;
+			children = (
+				94BE318A52DB1D7F31DF3EBFA0DF6B83 /* PersistentTool.swift */,
+				26C9AA7D0B15F54E4D64CCDF1A5F800B /* Pod */,
+				3185C609A2DDBF8E0A71C7C19175910B /* Support Files */,
+			);
+			name = GHToolLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B476AFF1821A2F5A47EA0569A0C7B752 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88A4EA6A91097F224A71099A607A98F5 /* Pods-GHToolLib_Example */,
+				3AC63A9A465694B27B6B2CA95853307D /* Pods-GHToolLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E56DB377BAE71B01D5188F4AAC22932F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB672E80DEC0B7CC79E0CA30521602 /* GHToolLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85F6BBBED2FBE7926678446FE331113A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0B367D5440E4D01E4651D3D2D72C98 /* Pods-GHToolLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EC0E41F2A89EEEF1ACDE850ECE02B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF000DE0FD2853922E91AE7E96A00B92 /* GHToolLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCEC2E44F639A9723524E1E8C3D3D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901575ACCB01A1E58E43216A247495A4 /* Pods-GHToolLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1250F927C734C4D4B8CF0E9E81CFE609 /* Pods-GHToolLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2567A136C1D27839FDD4C17475DB2F /* Build configuration list for PBXNativeTarget "Pods-GHToolLib_Tests" */;
+			buildPhases = (
+				1E89FA706D9803E0CD71FD6A1C33571C /* Sources */,
+				D7E491A6A6E2B38711395E9AF5D23B98 /* Frameworks */,
+				85F6BBBED2FBE7926678446FE331113A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348F6A16AE450F3A485445CC564A6A2A /* PBXTargetDependency */,
+			);
+			name = "Pods-GHToolLib_Tests";
+			productName = "Pods-GHToolLib_Tests";
+			productReference = 08FA1BFDE8ADF88E5A1A3D97A3E9A6C2 /* Pods_GHToolLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DD56BFF5BA1305EE4494D34B269962C /* Pods-GHToolLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E039A9234D476F098850F5136D78279 /* Build configuration list for PBXNativeTarget "Pods-GHToolLib_Example" */;
+			buildPhases = (
+				0F94C26ADE8DD5E7D33E35D280A299F1 /* Sources */,
+				697444E267178213B928179296848697 /* Frameworks */,
+				ECCEC2E44F639A9723524E1E8C3D3D6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359C671482198D908DFDE5F6B5727465 /* PBXTargetDependency */,
+			);
+			name = "Pods-GHToolLib_Example";
+			productName = "Pods-GHToolLib_Example";
+			productReference = 89F82DEAC2A86A0CCE6785E9AC2E65DC /* Pods_GHToolLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2989832D68D472E18AE2A34FB319457 /* GHToolLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D0CB66969AD797DF22473AFA33590D /* Build configuration list for PBXNativeTarget "GHToolLib" */;
+			buildPhases = (
+				5EEA9D9C4DB25FCEA6097CD39FF09B03 /* Sources */,
+				36086B43EF9BC678C9ADFD33D7BD4164 /* Frameworks */,
+				C9EC0E41F2A89EEEF1ACDE850ECE02B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHToolLib;
+			productName = GHToolLib;
+			productReference = B423EEB9F4DBCCA1189B0BF96470724A /* GHToolLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 54A4C324FC120D0E9CFF93D6085FDC80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2989832D68D472E18AE2A34FB319457 /* GHToolLib */,
+				9DD56BFF5BA1305EE4494D34B269962C /* Pods-GHToolLib_Example */,
+				1250F927C734C4D4B8CF0E9E81CFE609 /* Pods-GHToolLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F94C26ADE8DD5E7D33E35D280A299F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2CDF7A975211FA405583A08F9050AD /* Pods-GHToolLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E89FA706D9803E0CD71FD6A1C33571C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18062BBA7CBC3436C97D6F787E2F5F18 /* Pods-GHToolLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEA9D9C4DB25FCEA6097CD39FF09B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80425E1817DB4252C6E79ED6E908077F /* GHToolLib-dummy.m in Sources */,
+				1EFCF06D6E08FDA482E63D35678B9ABA /* PersistentTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		348F6A16AE450F3A485445CC564A6A2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GHToolLib_Example";
+			target = 9DD56BFF5BA1305EE4494D34B269962C /* Pods-GHToolLib_Example */;
+			targetProxy = 4604E993E64F43BA4F132832C28FFDDB /* PBXContainerItemProxy */;
+		};
+		359C671482198D908DFDE5F6B5727465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHToolLib;
+			target = C2989832D68D472E18AE2A34FB319457 /* GHToolLib */;
+			targetProxy = 63FE83D361E8B5910E21BAE8D7CC8D33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0286F6DA54DBC23A166BB95DCBC9B8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E4D9706821541D91E9E7036FAE8C13 /* GHToolLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GHToolLib/GHToolLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GHToolLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GHToolLib/GHToolLib.modulemap";
+				PRODUCT_MODULE_NAME = GHToolLib;
+				PRODUCT_NAME = GHToolLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		198204DB02A42827E7CC8D7A7E557834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35334DC112FEDC3DD8A7D7A87E1276D1 /* Pods-GHToolLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHToolLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHToolLib_Tests/Pods-GHToolLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2801457B6C94835D4E6CDFDBF449AF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E4D9706821541D91E9E7036FAE8C13 /* GHToolLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GHToolLib/GHToolLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GHToolLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GHToolLib/GHToolLib.modulemap";
+				PRODUCT_MODULE_NAME = GHToolLib;
+				PRODUCT_NAME = GHToolLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		320F62D9A715F7E360296A3A053AC16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06320B05B69F907504A339CB4A44E5AF /* Pods-GHToolLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHToolLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHToolLib_Example/Pods-GHToolLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9714D146FBFF14B5296BA9F905A94023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5323FF0F9F2305C1F41AD6A15AE61113 /* Pods-GHToolLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHToolLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHToolLib_Tests/Pods-GHToolLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E63578A5E4F5DD112FDDBBD5531323E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D610640ED454BA985F70FF82370AB804 /* Pods-GHToolLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHToolLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHToolLib_Example/Pods-GHToolLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D0CB66969AD797DF22473AFA33590D /* Build configuration list for PBXNativeTarget "GHToolLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2801457B6C94835D4E6CDFDBF449AF0B /* Debug */,
+				0286F6DA54DBC23A166BB95DCBC9B8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E039A9234D476F098850F5136D78279 /* Build configuration list for PBXNativeTarget "Pods-GHToolLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63578A5E4F5DD112FDDBBD5531323E1 /* Debug */,
+				320F62D9A715F7E360296A3A053AC16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2567A136C1D27839FDD4C17475DB2F /* Build configuration list for PBXNativeTarget "Pods-GHToolLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9714D146FBFF14B5296BA9F905A94023 /* Debug */,
+				198204DB02A42827E7CC8D7A7E557834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

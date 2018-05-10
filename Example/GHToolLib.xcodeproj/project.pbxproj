@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07714177CD13803790CF7A9A /* GHToolLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GHToolLib.podspec; path = ../GHToolLib.podspec; sourceTree = "<group>"; };
+		07714177CD13803790CF7A9A /* GHToolLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GHToolLib.podspec; path = ../GHToolLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		080E29D6B765082ECF012592 /* Pods_GHToolLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHToolLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38B34F1900244C24434F18CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		38B34F1900244C24434F18CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GHToolLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHToolLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		B3C42B47FFDD2875C4744BA0 /* Pods-GHToolLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHToolLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHToolLib_Example/Pods-GHToolLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB4CD47F82879207D7E4800B /* Pods-GHToolLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHToolLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHToolLib_Tests/Pods-GHToolLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C97755593BBD24139A4F9323 /* Pods-GHToolLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHToolLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHToolLib_Example/Pods-GHToolLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB4ECDF3FA145D36C4D5E911 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DB4ECDF3FA145D36C4D5E911 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
