@@ -87,7 +87,7 @@ public class PersistentTool: NSObject {
         return true
     }
     
-    fileprivate static func documentDirectory() ->String {
+    public static func documentDirectory() ->String {
         let directories = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
         if directories.count > 0 {
             let documentDirecotory = directories[0]
