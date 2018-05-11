@@ -73,7 +73,7 @@ public class PersistentTool: NSObject {
     }
     
     //MARK: tool
-    fileprivate static func createFolder(_ filePath: String?) throws -> Bool {
+    public static func createFolder(_ filePath: String?) throws -> Bool {
         guard let path = filePath, !path.isEmpty else {
             throw NSError.init(domain: fileArchiveErrorDomain, code: fileArchiveErrorCode, userInfo: ["filepath": "filePath is Empty!"])
         }
